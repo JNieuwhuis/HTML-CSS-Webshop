@@ -1,0 +1,93 @@
+﻿:root {
+    --sogyo-groen: #007936;
+    --sogyo-lichtgroen: #479C5E;
+    --background: whitesmoke;
+    --sogyo-grijs: #6A6A6A;
+    --sogyo-lichtgrijs: #CDCDCD;
+    --sogyo-rood: #CD241E;
+    --sogyo-lichtrood: #DEADBEEF;
+}
+
+body {
+    background-color: var(--sogyo-groen);
+    font-family: sans-serif;
+    /*cursor: none;*/
+}
+
+.page {
+    width: 95%;
+    background-color:  var(--background);
+    margin: 10px auto;
+}
+
+#fixed-menu {
+    right: 4%;
+    top: 20px;
+}
+
+#fixed-menu > a > img {
+    width: 40px;
+    height: 40px;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.top-menu {
+    min-height: 95px;
+}
+
+#logo {
+    margin: 10px;
+    height: 75px;
+    width: 75px;
+    float: left;
+}
+
+.header-flex-container, .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.header-flex-box {
+    padding: 10px;
+    text-transform: capitalize;
+    border-left: 1px solid var(--sogyo-lichtgrijs);
+    height: fit-content;
+    text-transform: uppercase;
+    font-weight: bold;
+	color: black;
+    text-decoration: none;
+}	
+
+.header-flex-box:link { 
+	color: black;
+}
+
+.header-flex-box:visited { 
+	color: black;
+}
+
+.header-flex-box:hover { 
+	color: var(--sogyo-groen);
+}
+
+#title {
+    background-color: #363636;
+    font-size: 40px;
+    color:  white;
+    text-align:  center;
+    text-transform:  uppercase;
+    padding:  20px;
+    margin:  0;
+}
+
+footer {
+    font-weight: bold;
+    background-color: var(--sogyo-groen);
+    font-size: 14px;
+    color:  white;
+    text-align: center;
+    padding: 10px 0 0 0;
+}

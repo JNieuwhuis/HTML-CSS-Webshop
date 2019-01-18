@@ -1,0 +1,148 @@
+﻿main {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#nieuw-assortiment {
+    margin: auto;
+    height: 250px;
+    background-color: gold;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: radial-gradient(farthest-corner at 50% 25%,gold, var(--sogyo-groen),whitesmoke);
+}
+
+.nieuw-assortiment-plaatjes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.nieuw-assortiment-plaatjes img {
+    max-height: 95%;
+    max-width: 95%;
+    min-width: 100px;
+    width: 45%;
+    margin: 10px auto;
+}
+
+.nieuw-assortiment-tekstboxen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    margin: 10px;
+}
+
+.nieuw-assortiment-tekstbox {
+    height: 60px;
+    width: 250px;
+    margin: 10px auto;
+    border: gold solid 1px;
+    color: var(--background);
+}
+
+#nieuw-tekst {
+    background-color: var(--sogyo-groen);
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#badeentjes-categorie-tekst {
+    background-color: var( --sogyo-lichtgroen);
+    font-size: 200%;
+    display: flex;
+}
+
+#badeentjes-categorie-tekst > p {
+    margin: auto;
+}
+
+#uitleg-tekst {
+    background-color: var(--sogyo-lichtgroen);
+    word-wrap: normal;
+    display: inline-table;
+}
+
+/*-------------------------*/
+
+#sale-cat-support {
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sale {
+    margin: auto;
+    justify-self: auto;
+    background-color: var(--sogyo-lichtrood);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sale-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.sale > a {
+    font-weight: bolder;
+    font-size: 225px;
+    color: var(--sogyo-rood);
+    text-decoration: none;
+    position: absolute;
+}
+
+#sale-bg > img {
+    width: 30%;
+    opacity: 0.5;
+}
+
+#cat-support {
+    margin-left: 25px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#categorieen {
+    background-color: var(--sogyo-lichtgroen);
+    height: 50%;
+    font-size: 300%;
+    color: var(--background);
+    font-weight: bolder;
+    text-decoration: none;
+    display: flex;
+}
+
+#categorieen > p {
+    margin: auto;
+}
+
+#klantenservice {
+    background-color: var(--sogyo-lichtgrijs);
+    height: 50%;
+    margin-top: 25px;
+    font-size: 300%;
+    color: var(--sogyo-lichtgroen);
+    font-weight: bolder;
+    text-decoration: none;
+    display: flex;
+}
+
+#klantenservice > p {
+    margin: auto;
+}

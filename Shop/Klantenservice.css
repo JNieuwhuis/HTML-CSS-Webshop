@@ -1,0 +1,21 @@
+﻿main {
+    display: flex;
+}
+
+main div {
+    display: flex;
+    margin: 10px auto;
+}
+
+main > p {
+    text-transform: uppercase;  
+	margin: 10px;
+    font-weight: bold;
+    float: left;
+}
+
+h1 {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 5px;
+}

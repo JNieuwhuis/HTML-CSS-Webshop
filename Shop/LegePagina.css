@@ -1,0 +1,20 @@
+﻿main {
+    display: flex;
+    height: 170px;
+}
+
+main div {
+    background-color: gray;
+    margin: 10px auto;
+    height: 150px;
+    width: 400px;
+}
+
+.popup {
+    height: 150px;
+    width: 400px;
+}
+
+.popup:active {
+    opacity: 0;
+}
